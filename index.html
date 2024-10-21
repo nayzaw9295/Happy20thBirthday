@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday For YaNa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- ===== MODAL BOX ===== -->
+     
+   <div class="modal" id="myModal">
+       <div class="modal-content">
+           <span class="close"><i class="fa fa-times"></i></span>
+           <div class="content-title">
+               <span>Birthday Card</span>
+           </div>
+           
+            <img src="happy-party.gif" alt="" class="gif">
+            <img src="5.png" alt="" class="rose">
+       </div>
+   </div>
+   <div class="modal" id="myModal1">
+    <div class="modal-content">
+        <span class="close"><i class="fa fa-times"></i></span>
+        <div class="content-title">
+            <span>Birthday Card</span>
+        </div>
+            <img src="happy-birthday-birthday-bear.gif" alt="" class="gif">
+            <img src="2.png" alt="" class="rose">
+      </div>
+   </div>
+   <div class="modal" id="myModal2">
+    <div class="modal-content">
+        <span class="close"><i class="fa fa-times"></i></span>
+        <div class="content-title">
+            <span>Birthday Wish</span>
+        </div>
+         <p>အောက်တိုဘာလ ၂၄ ရက်နေ့တွင်ကျရောက်သောမွေးနေ့ရှင် သင်းရနံ့၏ ၂၀ နှစ်ပြည့်မွေးနေ့မှစ၍နောင်မွေးနေ့များစွာတိုင်ယခုထက်ပိုပို၍အဆင်းလှခြင်းတို့ပြည့်စုံပြီး လိုချင်သောအရာများကိုလည်းမွေးနေ့လက်ဆောင်အဖြစ်ရရှိပါစေကြောင်းဆုတောင်းပေးလိုက်ပါသည်။မွေးနေ့လက်ဆောင်မပေးနိုင်သောကြောင့် html css နှင့်ပင် Birthday Wish လေးလုပ်ပေးလိုက်ပါတယ်ခင်ဗျာ။</p>
+    </div>
+</div>
+   <!-- ===== END OF  MODAL BOX ===== -->
+   <!-- ===== WRAPPER ===== -->
+    <div class="wrapper">
+        <!-- ===== NAVIGATION BAR ===== -->
+        <nav class="nav">
+            <div class="nav_logo">
+                <span>Happy Birthday</span>
+            </div>
+            <div class="right_nav">
+                <div class="nav_menu" id="navMenu">
+                    <ul class="link_list">
+                        <div class="close-menu">
+                            <i class="fa fa-times" onclick="menuClose()"></i>
+                        </div>
+                        <li class="list">
+                            <a href="#" class="link">Happy</a>
+                        </li>
+                        <li class="list">
+                            <a href="#myModal" class="link" id="myBtn">20th<i class="fa-solid fa-caret-down"></i></a>
+                            <div class=" description_box">
+                                <div class="link_description" id="myDescription">
+                                    <div class="content-title">
+                                        <span>Birthday Card</span>
+                                    </div>
+                                    <div class="desc_content">
+                                        <img src="happy-party.gif" alt="" class="gif">
+                                        <img src="5.png" alt="" class="rose">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <a href="#myModal1" class="link" id="myBtn">Birthday<i class="fa-solid fa-caret-down"></i></a>
+                            <div class=" description_box">
+                                <div class="link_description" id="myDescription">
+                                    <div class="content-title">
+                                        <span>Birthday Card</span>
+                                    </div>
+                                    <div class="desc_content">
+                                      <img src="happy-birthday-birthday-bear.gif" alt="" class="gif">
+                                      <img src="2.png" alt="" class="rose">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <a href="#myModal2" class="link" id="myBtn">For You<i class="fa-solid fa-caret-down"></i></a>
+                            <div class="description_box about_box">
+                                <div class="link_description" id="myDescription">
+                                    <div class="content-title">
+                                        <span>Birthday Wish</span>
+                                    </div>
+                                    <div class="desc_content">
+                                      <p>အောက်တိုဘာလ ၂၄ ရက်နေ့တွင်ကျရောက်သောမွေးနေ့ရှင် သင်းရနံ့၏ ၂၀ နှစ်ပြည့်မွေးနေ့မှစ၍နောင်မွေးနေ့များစွာတိုင် ယခုထက်ပိုပို၍အဆင်းလှခြင်းတို့ပြည့်စုံပြီး လိုချင်သောအရာများကိုလည်းမွေးနေ့လက်ဆောင်အဖြစ်ရရှိပါစေကြောင်းဆုတောင်းပေးလိုက်ပါသည်။မွေးနေ့လက်ဆောင်မပေးနိုင်သောကြောင့် html css နှင့်ပင် Birthday Wish လေးလုပ်ပေးလိုက်ပါတယ်ခင်ဗျာ။</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="nav_button">
+                    <a href="assets/pdf/download.pdf" class="btn"><i class="fa-solid fa-gift"></i> <span>Hope You Fun</span></a>
+                </div>
+                <div class="mode">
+                    <div class="moon-sun" id="toggle-switch">
+                        <i class="fa fa-moon" id="moon"></i>
+                        <i class="fa fa-sun" id="sun"></i>
+                    </div>
+                </div>
+                <div class="nav_menu_btn">
+                    <i class="fa fa-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- ===== MAIN ===== -->
+        <main class="main">
+            <div class="row hero">
+                <div class="col col-1">
+                    <div class="social_icons">
+                         <!-- ===== Icon animated circle ===== -->
+                        <div class="icon_circle"></div>
+                        <!-- ===== Social Icons  ===== -->
+                        <a href="https://linkedin.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </a>
+                        <a href="https://dribbble.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-solid fa-cake-candles icon"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-solid fa-icons icon"></i>
+                        </a>
+                        <a href="https://behance.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-solid fa-hand-holding-heart icon"></i>
+                        </a>
+                    </div>
+                    <!-- ===== HERO TEXT  ===== -->
+                    <div class="hero_box">
+                        <div class="hello">
+                            <p>ပျော်ရွှင်ဖွယ်၂၀နှစ်ပြည့်</p>
+                        </div>
+                        <div class="job">
+                            <span class="multiText"></span>
+                        </div>
+                        <div class="hero_description">
+                        </div>
+                        <div class="hero_btn">
+                            <button class="btn_1">Happy Birthday Song</button>
+                            <button class="btn_2"><audio controls src="HB.mp3"></audio></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <div class="circle">
+                        <img src="red.png" alt="">
+                    </div>
+                    <div class="hero-image">
+                        <img src="7.png" alt="">
+                    </div>
+                    <div class="clients">
+                        <div class="clients-content">
+                                 <img src="birthday-happy-birthday.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="xp-content">
+                            <img src="birthday-happy.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        // Types JS
+        var typingEffect = new Typed(".multiText",{
+            strings: ["မွေးနေ့လေး","ဖြစ်ပါစေ"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 70,
+            backDelay: 2000
+        })
+        // End of typed JS
+    </script>
+    <script src="style.js"></script>
+</body>
+</html>
